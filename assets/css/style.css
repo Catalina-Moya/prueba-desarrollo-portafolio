@@ -1,0 +1,156 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+span {
+    color: orangered;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h3 {
+    font-size: 42px;
+}
+
+.home-content h1 {
+    font-size: 62px;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+
+
+
+
+
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+.informacion {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: aliceblue;
+    padding: 150px 0;
+}
+
+.informacion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.informacion-box {
+    flex: 1 1 300px;
+    max-width: 300px;
+    padding: 67px;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.informacion-box:hover {
+    color: var(--informacion-color);
+    background-color: white;
+    color: black;
+}
+
+.informacion-box i {
+    font-size: 2rem;
+    color: orangered;
+    margin-bottom: 1rem;
+}
+
+.informacion-container .informacion-box:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 85px;
+}
+
+.proyectos-box {
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(161, 161, 161);
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    height: 400px;
+}
+
+.proyectos-box:hover {
+    color: var(--informacion-color);
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0);
+}
+
+.proyectos-container .proyectos-box:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+
+
+.mb-3 {
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+.bg {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
